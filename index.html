@@ -1,0 +1,1008 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HOME</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/owl.theme.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/datepicker.css" />
+    <link href="css/yamm.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/Site.min.css" rel="stylesheet" />
+    <!-- **===================================* Media Query * ========================================  * -->
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 640px) and (max-width: 991px)" href="css/media/tablet-devices.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 639px)" href="css/media/mobile.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="lazy-gypsy">
+        <!-- Static navbar -->
+        <header class="header-section clearfix">
+            <nav class="navbar navbar-default ">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="javascript:void(0)"><img src="images/logo.png" /> </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right login-nav">
+                            <li><a href="javascript:void(0)" class="login-btn">login</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </nav>
+        </header>
+        <div class="main-body">
+            <div id="">
+
+                <div class="container" id="SummerBanner">
+                    <h1>Enter summer with<br /><span class="color_red">refreshing</span> rates</h1>
+                    <div class="dash"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="filter">
+                    <ul class="nav nav-tabs filters-tabs">
+                        <li class="active "><a data-toggle="tab" href="#menu">ROUND TRIP</a>
+                        </li>
+                        <li class=""><a data-toggle="tab" href="#menu1">ONE WAY</a>
+                        </li>
+                        <li class=""><a data-toggle="tab" href="#menu2">MULTI CITY</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="menu" class="tab-pane  in active">
+                            <form id='myform' method='POST' action='#'>
+                                <div class="filter1">
+                                    <div class="search-bar clearfix">
+                                        <div class="col-md-3 group-B">
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox01" type="checkbox" for="plane" class="styled" checked="">
+                                                        <label for="checkbox01" class="ico-plane"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox02" type="checkbox" for="Hotel" class="styled" checked="">
+                                                        <label for="checkbox02" class="ico-hotel"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox03" type="checkbox" for="car" class="styled" checked="">
+                                                        <label for="checkbox03" class="ico-car"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-C col-md-1 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12 enter-price">
+                                                    <div class="row ">
+                                                        <div class="col-xs-12 padZero">
+                                                            <input type="text" class="form-control" placeholder="Enter budget" name="quantity">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-D col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDest2"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control from" aria-describedby="addonDest2" placeholder="From">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control to" aria-describedby="addonDest2" placeholder="To">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control destination" aria-describedby="addonDest2" placeholder="Destination">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Same as Pick Up">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Pick Up City">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Drop Off City">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-E col-md-3">
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker1"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker" aria-describedby="addonDatePicker1" placeholder="Depart date" id="date-picker-1" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Return date" id="date-picker-2" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker1"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker" aria-describedby="addonDatePicker1" placeholder="Check In" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Check Out" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Pick Up Date" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 group-F">
+                                            <div class="row">
+                                                <div class="col-xs-6 select-month border_right all plane Hotel car car-Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>
+                                                            <div class="dropdown padlZero" aria-describedby="basic-addon1">
+                                                                <div id="dropdownMenu1" aria-haspopup="true" aria-expanded="true">
+                                                                    <sapn class="traveller dropdown-selected" title="Select Traveller" data-toggle="popover" data-trigger="click" data-placement="bottom"> 1 Adult</sapn>
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <div id="dropdownMenu1-content" class="hide">
+                                                                    <ul for="#dropdownMenu1">
+                                                                        <li>
+                                                                            <label class="Title">Adults</label>
+                                                                            <div class="select-travellers pull-left">
+                                                                                <span class="minus adult">
+                                      <i class="fa fa-minus" aria-hidden="true"></i>
+                                      </span>
+                                                                                <span class="selected-value">1</span>
+                                                                                <span class="plus">
+                                      <i class="fa fa-plus" aria-hidden="true"></i>
+                                      </span>
+                                                                            </div>
+                                                                            <label class="desc">12+ Years</label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <label class="Title">Childrens</label>
+                                                                            <div class="select-travellers pull-left">
+                                                                                <span class="minus">
+                                      <i class="fa fa-minus" aria-hidden="true"></i>
+                                      </span>
+                                                                                <span class="selected-value">0</span>
+                                                                                <span class="plus">
+                                      <i class="fa fa-plus" aria-hidden="true"></i>
+                                      </span>
+                                                                            </div>
+                                                                            <label class="desc">Under 12</label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <label class="Title">Infants</label>
+                                                                            <div class="select-travellers pull-left">
+                                                                                <span class="minus">
+                                      <i class="fa fa-minus" aria-hidden="true"></i>
+                                      </span>
+                                                                                <span class="selected-value">0</span>
+                                                                                <span class="plus">
+                                      <i class="fa fa-plus" aria-hidden="true"></i>
+                                      </span>
+                                                                            </div>
+                                                                            <label class="desc">Under 2</label>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-6 select-month border_right all plane Hotel car-Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group full-width">
+                                                            <!--<span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>-->
+                                                            <div class="dropdown padlZero">
+                                                                <div class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                                    <span class="selected-rooms">2 Rooms</span>
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">1 Room</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">2 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">3 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">4 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">5 Rooms</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 select-month border_right all hidden Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group full-width">
+                                                            <!--<span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>-->
+                                                            <div class="dropdown padlZero">
+                                                                <div class="dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                                    <span class="selected-night">2 Night</span>
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">1 night</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">2 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">3 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">4 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">5 nights</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="row buton">
+                                <div class="col-md-12">
+                                    <div class="button_area">
+                                        <button class="btn-danger search-book">Search & Book</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu1" class="tab-pane">
+                            <form id='myform1' method='POST' action='#'>
+                                <div class="filter1">
+                                    <div class="search-bar clearfix">
+                                        <div class="col-md-3 group-B">
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox04" type="checkbox" for="plane" class="styled" checked="">
+                                                        <label for="checkbox04" class="ico-plane"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox05" type="checkbox" for="Hotel" class="styled" checked="">
+                                                        <label for="checkbox05" class="ico-hotel"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox06" type="checkbox" for="car" class="styled" checked="">
+                                                        <label for="checkbox06" class="ico-car"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-C col-md-1 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12 enter-price">
+                                                    <div class="row ">
+                                                        <div class="col-xs-12 padZero">
+                                                            <input type="text" class="form-control" placeholder="Enter budget" name="quantity">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-D col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDest2"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control from" aria-describedby="addonDest2" placeholder="From">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control to" aria-describedby="addonDest2" placeholder="To">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control destination" aria-describedby="addonDest2" placeholder="Destination">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Same as Pick Up">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Pick Up City">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Drop Off City">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-E col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12 select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker1"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker" aria-describedby="addonDatePicker1" placeholder="Depart date" id="date-picker-1" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--  <div class="col-md-6 col-sm-6 col-xs-6 select-month all plane">
+                        <div class="row border_right">
+                          <div class="input-group">
+                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Return date" id="date-picker-2" value="">
+                          </div>
+                        </div>
+                      </div> -->
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker1"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker" aria-describedby="addonDatePicker1" placeholder="Check In" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Check Out" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Pick Up Date" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 group-F">
+                                            <div class="row">
+                                                <div class="col-xs-4 select-month border_right all plane Hotel car car-Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>
+                                                            <div class="dropdown padlZero" aria-describedby="basic-addon1">
+                                                                <div id="dropdownMenu1" aria-haspopup="true" aria-expanded="true">
+                                                                    <sapn class="traveller dropdown-selected" title="Select Traveller" data-toggle="popover" data-trigger="click" data-placement="bottom"> 1 Adult</sapn>
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <div id="dropdownMenu1-content" class="hide">
+                                                                    <ul for="#dropdownMenu1">
+                                                                        <li>
+                                                                            <label class="Title">Adults</label>
+                                                                            <div class="select-travellers pull-left">
+                                                                                <span class="minus adult">
+                                      <i class="fa fa-minus" aria-hidden="true"></i>
+                                      </span>
+                                                                                <span class="selected-value">1</span>
+                                                                                <span class="plus">
+                                      <i class="fa fa-plus" aria-hidden="true"></i>
+                                      </span>
+                                                                            </div>
+                                                                            <label class="desc">12+ Years</label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <label class="Title">Childrens</label>
+                                                                            <div class="select-travellers pull-left">
+                                                                                <span class="minus">
+                                      <i class="fa fa-minus" aria-hidden="true"></i>
+                                      </span>
+                                                                                <span class="selected-value">0</span>
+                                                                                <span class="plus">
+                                      <i class="fa fa-plus" aria-hidden="true"></i>
+                                      </span>
+                                                                            </div>
+                                                                            <label class="desc">Under 12</label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <label class="Title">Infants</label>
+                                                                            <div class="select-travellers pull-left">
+                                                                                <span class="minus">
+                                      <i class="fa fa-minus" aria-hidden="true"></i>
+                                      </span>
+                                                                                <span class="selected-value">0</span>
+                                                                                <span class="plus">
+                                      <i class="fa fa-plus" aria-hidden="true"></i>
+                                      </span>
+                                                                            </div>
+                                                                            <label class="desc">Under 2</label>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 select-month border_right all plane Hotel car-Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group full-width">
+                                                            <!--<span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>-->
+                                                            <div class="dropdown padlZero">
+                                                                <div class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                                    <span class="selected-rooms">2 Rooms</span>
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">1 Room</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">2 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">3 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">4 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">5 Rooms</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 select-month border_right all  Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group full-width">
+                                                            <!--<span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>-->
+                                                            <div class="dropdown padlZero">
+                                                                <div class="dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                                    <span class="selected-night">2 Night</span>
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">1 night</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">2 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">3 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">4 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">5 nights</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="row buton">
+                                <div class="col-md-12">
+                                    <div class="button_area">
+                                        <button class="btn-danger search-book">Search & Book</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu2" class="tab-pane ">
+                            <form id='myform' method='POST' action='#'>
+                                <div class="filter1">
+                                    <div class="search-bar clearfix">
+                                        <div class="col-md-3 group-B">
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox07" type="checkbox" for="plane" class="styled" checked="">
+                                                        <label for="checkbox07" class="ico-plane"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox08" type="checkbox" for="Hotel" class="styled" checked="">
+                                                        <label for="checkbox08" class="ico-hotel"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4  check-chkbx">
+                                                    <div class="checkbox checkbox-danger inline-block border-right mR10 pR10">
+                                                        <input id="checkbox09" type="checkbox" for="car" class="styled" checked="">
+                                                        <label for="checkbox09" class="ico-car"> <img src="images/spacer.png"> </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-C col-md-1 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12 enter-price">
+                                                    <div class="row ">
+                                                        <div class="col-xs-12 padZero">
+                                                            <input type="text" class="form-control" placeholder="Enter budget" name="quantity">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-D col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDest2"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control from" aria-describedby="addonDest2" placeholder="From">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control to" aria-describedby="addonDest2" placeholder="To">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control destination" aria-describedby="addonDest2" placeholder="Destination">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Same as Pick Up">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Pick Up City">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12  select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><img src="images/marker.jpg" /></span>
+                                                            <input type="text" class="form-control pick-up" aria-describedby="addonDest2" placeholder="Drop Off City">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-E col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12 select-month all plane">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker1"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker" aria-describedby="addonDatePicker1" placeholder="Depart date" id="date-picker-1" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker1"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker" aria-describedby="addonDatePicker1" placeholder="Check In" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6 select-month hidden all Hotel car-Hotel">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Check Out" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12 select-month hidden all car">
+                                                    <div class="row border_right">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="addonDatePicker2"><img src="images/ca.jpg" /></span>
+                                                            <input type="text" class="form-control date-picker active" aria-describedby="addonDatePicker2" placeholder="Pick Up Date" id="" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 group-F">
+                                            <div class="row">
+                                                <div class="col-xs-4 select-month border_right all plane Hotel car car-Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>
+                                                            <div class="dropdown padlZero" aria-describedby="basic-addon1">
+                                                                <div class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                                    1 Adult
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <ul class="dropdown-menu wide" aria-labelledby="dropdownMenu1">
+                                                                    <li><a class="col-md-8 col-xs-8" href="javascript:void(0)">Adults (18-64)</a>
+                                                                        <input type="number" value="18" min="1" step="1" class="row col-md-4 numberField" />
+                                                                    </li>
+                                                                    <li><a class="col-md-8 col-xs-8" href="javascript:void(0)">Seniors (65+)</a>
+                                                                        <input type="number" value="65" min="1" step="1" class="row col-md-4 numberField" />
+                                                                    </li>
+                                                                    <li><a class="col-md-8 col-xs-8" href="javascript:void(0)">Children (&lt;1-17)</a>
+                                                                        <input type="number" value="14" min="1" step="1" class="row col-md-4 numberField" />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 select-month border_right all plane Hotel car-Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group full-width">
+                                                            <!--<span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>-->
+                                                            <div class="dropdown padlZero">
+                                                                <div class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                                    2 Rooms
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">1 Room</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">2 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">3 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">4 Rooms</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">5 Rooms</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 select-month border_right all plane Hotel">
+                                                    <div class="row">
+                                                        <div class="input-group full-width">
+                                                            <!--<span class="input-group-addon" id="basic-addon1"><img src="images/user.jpg" /></span>-->
+                                                            <div class="dropdown padlZero">
+                                                                <div class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                                    2 Night
+                                                                    <i class="fa fa-sort-desc Caret"></i>
+                                                                </div>
+                                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">1 night</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">2 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">3 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">4 nights</a>
+                                                                    </li>
+                                                                    <li><a class="col-md-12" href="javascript:void(0)">5 nights</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <i class="fa fa-times-circle-o close"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="Content"></div>
+                            <div class="row buton">
+                                <div class="col-md-12">
+                                    <div class="button_area">
+                                        <button type="button" class="btn btn-default addbtn pull-left ">Add More</button>
+                                        <button class="btn-danger search-book">Search & Book</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="separater-img">
+                <img src="images/images.png" />
+            </div>
+            <div class="gypsy">
+                <section class="white-layer">
+                    <div class="container">
+                        <h1>La<span class="color_red">z</span>y Gypsy</h1>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in vol uptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="about-services">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="service_box">
+                                        <div class="thumbnail">
+                                            <img src="images/icon.png" />
+                                        </div>
+                                        <h3>Restuarant &Banquets</h3>
+                                        <p>
+                                            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora suscipit aenean rhoncus posuere odio in porttitora tincidunt rhoncus .
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="service_box">
+                                        <div class="thumbnail">
+                                            <img src="images/icon.png" />
+                                        </div>
+                                        <h3>Restuarant &Banquets</h3>
+                                        <p>
+                                            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora suscipit aenean rhoncus posuere odio in porttitora tincidunt rhoncus .
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="service_box">
+                                        <div class="thumbnail">
+                                            <img src="images/icon.png" />
+                                        </div>
+                                        <h3>Restuarant &Banquets</h3>
+                                        <p>
+                                            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora suscipit aenean rhoncus posuere odio in porttitora tincidunt rhoncus .
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="service_box">
+                                        <div class="thumbnail">
+                                            <img src="images/icon.png" />
+                                        </div>
+                                        <h3>Restuarant &Banquets</h3>
+                                        <p>
+                                            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora suscipit aenean rhoncus posuere odio in porttitora tincidunt rhoncus .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="update-section">
+                <div class="container">
+                    <h2><img src="images/h2icon.png" /> NEWS UPDATES</h2>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="update_box">
+                                <div class="thumbnail">
+                                    <img src="images/img.jpg" />
+                                </div>
+                                <h3>News Title 1</h3>
+                                <p>
+                                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora suscipit aenean rhoncus posuere odio in porttitora tincidunt rhoncus .
+                                </p>
+                                <a href="javascript:void(0)"> Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="update_box">
+                                <div class="thumbnail">
+                                    <img src="images/img.jpg" />
+                                </div>
+                                <h3>News Title 1</h3>
+                                <p>
+                                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora suscipit aenean rhoncus posuere odio in porttitora tincidunt rhoncus .
+                                </p>
+                                <a href="javascript:void(0)"> Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="update_box">
+                                <div class="thumbnail">
+                                    <img src="images/img.jpg" />
+                                </div>
+                                <h3>News Title 1</h3>
+                                <p>
+                                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora suscipit aenean rhoncus posuere odio in porttitora tincidunt rhoncus .
+                                </p>
+                                <a href="javascript:void(0)"> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer-section">
+            <div class="footer-primary">
+                <div class="container">
+                    <div class="container">
+                        <div class="col-md-5 col-sm-6">
+                            <h2> Lazy Gypsy </h2>
+                            <p>
+                                Proin iaculis purus consequat sem cure digni ssim.
+                                <br /> Donec porttitora suscipit aenean rhoncus posuer
+                                <br />e odio in porttitora tincidunt rhoncus .
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-sm-2">
+                            <h3> about us </h3>
+                            <ul class="footer-links">
+                                <li><a href="javascript:void(0)"> Layzy Gypsy</a>
+                                </li>
+                                <li><a href="javascript:void(0)">Our Team</a>
+                                </li>
+                                <li><a href="javascript:void(0)">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <h3> Contact us </h3>
+                            <ul class="contact-list">
+                                <li><a href="javascript:void(0)"><i class="fa fa-envelope"></i>hello@lazygypsy.com</a>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-mobile"></i> +44087536920</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-11">
+                            <ul class="footer-icons pull-right">
+                                <li>
+                                    <a href="javascript:void(0)"> <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-pinterest-p"></i></a>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-secondry">
+                <div class="container">
+                    <p>© Copyright 2016, Lazy Gypsy</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    $(function() {
+        $('.addbtn').on('click', function() {
+
+            $('#counterDiv').html(function(i, val) {
+                return val * 1 + 1
+            });
+            var counter = parseInt($('#counterDiv').html());
+            var data = $('#menu2').children()[0];
+            var htmlData = data.innerHTML;
+            htmlData = htmlData.replace(/checkbox07/g, "checkbox" + counter);
+            htmlData = htmlData.replace(/checkbox08/g, "checkbox" + counter + 1);
+            htmlData = htmlData.replace(/checkbox09/g, "checkbox" + counter + 2);
+            $(htmlData).appendTo('#Content');
+            $(".date-picker").removeClass('hasDatepicker').datepicker();
+        });
+    });
+
+    function removefunction() {
+        // Removing a specified element without having to specify its parent node
+        var node = document.getElementById("nested");
+        if (node.parentNode) {
+            node.parentNode.removeChild(node);
+        }
+    };
+    </script>
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+    $(".date-picker").datepicker();
+
+    $(".date-picker").on("change", function() {
+        var id = $(this).attr("id");
+        var val = $("label[for='" + id + "']").text();
+        $("#msg").text(val + " changed");
+    });
+    </script>
+
+</body>
+
+</html>

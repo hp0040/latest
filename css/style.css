@@ -1,0 +1,2453 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.otf');
+}
+@font-face {
+    font-family: Montserrat-regular;
+    src: url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+body {
+    overflow-x: hidden;
+}
+.navbar-default {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+    margin-top: 22px;
+}
+.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+.login-nav {
+    margin-top: 22px;
+}
+.login-btn {
+    border: 1px solid #4c4c4c;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+    border-radius: 3px;
+}
+h1 {
+    text-align: center;
+    color: #4c4c4c;
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    color: #4c4c4c;
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+}
+.modal-content {
+    border-radius: 0px;
+}
+.color_red {
+    color: #d71a21;
+}
+.dash {
+    background-color: #4c4c4c;
+    height: 2px;
+    width: 140px;
+    margin: 20px auto 30px;
+    border-top: 1px solid #b7b7b7;
+    border-bottom: 1px solid #949494;
+}
+.filters-tabs {
+    border: 0px;
+    width: 390px;
+    margin: 0px auto;
+}
+.multi > a {
+    outline: medium none;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.filter1 {
+    margin-top: 20px;
+}
+.multi .fa {
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+}
+.filters-tabs > li.active > a, .filters-tabs > li.active > a:hover, .filters-tabs > li.active > a:focus {
+    border-bottom: 2px solid #d71a21 !important;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #d71a21;
+    outline: medium none;
+}
+.filters-tabs li a {
+    border-bottom: 2px solid transparent !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 13px;
+    font-family: Montserrat-regular;
+    font-size: 16px;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    margin-right: 13px !important;
+}
+.nav-tabs > li {
+    margin-bottom: !important;
+}
+.filter {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.modify-filter {
+    display: none;
+}
+.filter .row:last-child {
+    border: medium none;
+}
+.filter .row {
+    border: 1px solid #f0f0f0;
+}
+.filter .row .col-md-1 {
+    padding: 0px;
+}
+.button_area1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.button_area {
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-danger {
+    background-color: #d71a21;
+    border: 0px;
+}
+.search-book {
+    max-width: 195px;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Montserrat-regular;
+}
+.buton .btn-default {
+    background: #b2b2b2 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 38px;
+    padding: 10px 20px;
+}
+.row.buton {
+    border: medium none !important;
+}
+.separater-img img {
+    width: 100%;
+}
+section {
+    padding: 86px 0px 83px;
+}
+.gypsy {
+    background-image: url("../images/about.png");
+    background-size: cover;
+    background-position: top;
+}
+.white-layer {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.gypsy p.description {
+    font-size: 16px;
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    text-align: center;
+    padding: 24px 60px 0px;
+}
+.thumbnail {
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+    margin: 0;
+}
+.about-services {
+    margin-top: 100px;
+}
+.service_box h3 {
+    color: #4a374f;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat-Bold;
+    margin: 46px 20px 27px;
+}
+.service_box p {
+    font-size: 12px;
+    font-family: Montserrat-regular;
+    color: #777777;
+    text-align: center;
+}
+.service_box:hover h3 {
+    color: #d71a21;
+}
+.update-section h2 img {
+    max-height: 18px;
+    margin-right: 7px;
+}
+.update_box img {
+    width: 100%;
+}
+.update_box {
+    margin-top: 40px;
+}
+.update_box h3 {
+    margin: 15px 0px 19px;
+    color: #222222;
+    font-size: 18px;
+    font-family: Montserrat-regular;
+}
+.update_box p {
+    color: #777777;
+    font-size: 14px;
+    font-family: Montserrat-regular;
+}
+.update_box a {
+    color: #d71a21;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Montserrat-regular;
+}
+.update_box a:hover {
+    text-decoration: none;
+}
+.footer-primary {
+    background-color: #222222;
+    padding: 34px 0px 35px;
+}
+.footer-primary h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: Montserrat-regular;
+    margin-bottom: 32px;
+}
+.footer-primary p {
+    color: #f1f1f1;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+}
+.footer-links {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+.footer-links li {
+    padding: 2px 0px;
+}
+.footer-links a {
+    font-family: Montserrat-regular;
+    color: #efefef;
+}
+.footer-links a:hover {
+    text-decoration: none;
+}
+.footer-primary h3 {
+    color: #efefef;
+    text-align: left;
+    font-size: 18px;
+    font-family: Montserrat-regular;
+    margin-bottom: 32px;
+    text-transform: capitalize;
+}
+.contact-list {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.contact-list a {
+    color: #efefef;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.contact-list i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+.footer-icons {
+    list-style-type: none;
+    margin-left: 0px;
+    margin-top: 60px;
+    padding-left: 0px;
+}
+.footer-icons li {
+    display: inline;
+}
+.footer-icons a i {
+    height: 40px;
+    width: 40px;
+    background-color: #4c4c4c;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+.footer-secondry {
+    padding: 24px 0px;
+}
+.footer-secondry p {
+    text-align: center;
+    font-size: #555555;
+    font-family: Montserrat-regular;
+}
+.plaine {
+    display: block;
+    height: 60px;
+    width: 40px;
+}
+.box2 .plaine {
+    display: block;
+    height: 60px;
+    width: 80px;
+}
+.title {
+    background-color: #d71a21;
+    color: #ffffff;
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    max-width: 200px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 2147483647;
+}
+.plaine:hover .title {
+    display: block;
+    margin-bottom: 30px
+}
+.filter input[type="checkbox"] {
+    display: none;
+}
+.filter input[type="checkbox"] + label span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: -1px -1px 0px !important;
+    vertical-align: middle;
+    border: 1px solid #d7d7d7;
+    cursor: pointer;
+    background-size: cover;
+}
+.filter input[type="checkbox"]:checked + label span {
+    background: url(../images/checkmark_1.png) left top no-repeat;
+    background-size: cover;
+}
+.filter .filter2 input[type="checkbox"] {
+    display: none;
+}
+.filter .filter2 input[type="checkbox"] + label span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: -1px -1px 0px !important;
+    vertical-align: middle;
+    border: 1px solid #d7d7d7;
+    cursor: pointer;
+    background-size: cover;
+}
+.box1 {
+    border: 1px solid #f0f0f0;
+    width: 50px;
+}
+.box3 {
+    border: 1px solid #f0f0f0;
+    width: 50px;
+}
+.box2 {
+    border: 1px solid #f0f0f0;
+    width: 90px;
+}
+.plaine1 {
+    display: block;
+    height: 60px;
+    width: 67px;
+}
+.icon {
+    padding-top: 5px;
+}
+input.qtyplus {
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/upkey.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 0px;
+    background-size: contain;
+    background-color: transparent;
+}
+input.qtyminus {
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/downkey.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    border: 0px;
+    background-size: contain;
+    background-color: transparent;
+}
+.enter-price {
+    border: 1px solid #f0f0f0;
+}
+.enter-price .row {
+    border: 0px;
+}
+.select-month .row {
+    margin: 0px;
+}
+.row-padding {
+    padding-top: 10px;
+}
+.dollaer {
+    font-size: 17px;
+    color: #90a4ae;
+    padding-top: 8px;
+}
+.enter-price .col-md-8 {
+    padding: 0px;
+}
+.enter-price .form-control {
+    box-shadow: none;
+    border: 0px;
+}
+.form-control {
+    height: 50px;
+    padding: 0 6px 10px;
+}
+.col-md-11.travel {
+    padding-right: 0;
+}
+.search-month {
+    padding: 0px !important;
+    border-right: 1px solid #f0f0f0 !important;
+}
+.select-month .row {
+    border: 0px;
+    padding-top: 10px;
+}
+.select-month {
+    padding: 0px !important;
+}
+.select-month .form-control {
+    border: 0px;
+    box-shadow: none;
+}
+.border_right {
+    border: 1px solid #f0f0f0 !important;
+}
+.last-col .border_right:last-child {
+    /*border-right:none !important;*/
+}
+.second-col .border_right:last-child {
+    /*border-right:none !important;*/
+}
+.select-month .col-md-2, .select-month .col-md-10, .select-month .col-md-8 {
+    padding: 0px;
+}
+.last-col {
+    padding-left: 0;
+    width: 14%;
+}
+.secondlast-col {
+    margin-left: 0;
+    padding-left: 0 !important;
+    width: 14%;
+}
+.multi {
+    float: right;
+    margin-right: -20px !important;
+    margin-top: -50px !important;
+    text-align: right;
+}
+
+/**
+welcome-menu
+**/
+
+.welcome-menu {
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.book_box .thumbnail {
+    float: right;
+}
+.book_box .col-xs-4, .book_box .col-xs-8 {
+    padding: 0px;
+}
+.book-buttons {
+    margin: 10px auto;
+    padding: 10px 0;
+}
+a:focus {
+    outline: none;
+}
+.filter2 .modify {
+    margin: 0;
+}
+.book-buttons .btn {
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border-radius: 0px !important;
+    font-family: Montserrat-regular;
+    color: #fff !important;
+}
+.book-buttons .form-control {
+    height: 40px;
+    box-shadow: none;
+    border-radius: 0px;
+    font-family: Montserrat-regular;
+    color: #5d5d5d;
+    font-size: 19px;
+}
+.book-buttons .thumbnail img {
+    margin-top: 5px;
+}
+.btn-grey {
+    background-color: #5d5d5d;
+}
+.innre-page-tabs {
+    border: 0px !important;
+    overflow: hidden;
+}
+.innre-page-tabs a {
+    font-size: 16px;
+    font-family: Montserrat-regular;
+    text-transform: capitalize;
+    padding: 23px 10px;
+    color: #666666;
+}
+.nav-tabs.innre-page-tabs > li.active > a, .nav-tabs.innre-page-tabs > li.active > a:hover, .nav-tabs.innre-page-tabs > li.active > a:focus {
+    background-color: #4c4c4c !important;
+    color: #fff !important;
+    margin: 0px 0 0;
+    outline: medium none;
+    text-decoration: none;
+}
+.not {
+    padding: 0 0px 0 10px;
+}
+.tab-header {
+    background-color: #666;
+    border-radius: 0px 0px 5px 5px;
+}
+.tab-header-menu {
+    list-style-type: none;
+    padding: 5px 15px 5px 0;
+    width: 100%;
+}
+.indicator-arrow {
+    display: inline;
+    color: white;
+}
+.tab-header-menu div a {
+    color: #fff;
+    font-size: 16px;
+    font-family: Montserrat-regular;
+}
+.tab-header-menu div span {
+    font: 12px "Montserrat-regular";
+    color: #fff;
+}
+.indicator-arrow {
+    display: inline-block;
+    margin-left: 9px;
+    width: 20px;
+    /* float: left; */
+    position: absolute;
+}
+.tab-header-menu .destination {
+    margin-left: 40px;
+}
+.tab-header-menu div a i {
+    margin-right: 5px;
+}
+.tab-header-menu div a:hover {
+    text-decoration: none;
+}
+
+/*.tab-header-menu div a:after {
+    content: "|";
+    height: 50px;
+    width: 1px;
+    padding: 0px 22px;
+    color: #adadad;
+}*/
+
+.date-picker-input {
+    border: none;
+    background: transparent;
+    text-align: center;
+    width: 80px
+}
+.date-picker-input:focus {
+    outline: none;
+}
+.pl36 {
+    padding-left: 36px;
+}
+.white-color {
+    color: white;
+}
+.tab-header-menu li:nth-child(2) a:after, .tab-header-menu li:nth-child(3) a:after {
+    display: none;
+}
+.tab-header-menu li:nth-child(3) {
+    float: right;
+}
+.tab-filter {
+    background-color: #f3f3f3;
+    margin: 10px 0px 0px;
+}
+.tab-filter span {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    font-weight: normal !important;
+    padding-left: 10px;
+}
+
+/* Range slider */
+
+
+/*/- Range slider */
+
+.check-area {
+    padding: 13px;
+    text-align: right;
+    border-bottom: 1px solid #bbbbbb;
+}
+.check-area span {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    font-weight: normal !important;
+    padding-left: 10px;
+}
+.check-area input {
+    margin-right: 7px;
+}
+.tab-filter .col-md-4:nth-child(1) {
+    border-right: 1px solid #acacac;
+    padding: 20px 30px;
+}
+.tab-filter .col-md-4 {
+    border-right: 1px solid #acacac;
+    padding: 27px 30px;
+}
+.tab-filter .col-md-4:last-child {
+    border-right: 0px;
+}
+
+/* Flights  section */
+
+.flight-table {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.flight-table ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.flight-table ul li, .desk-filter ul li, .flight-fiulter ul li {
+    display: inline-block;
+    color: #ed1e24;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.desk-filter ul , .flight-filter ul {
+    margin-bottom: 0;
+    padding-left: 15px;
+    border: 1px solid #ddd;
+    border-left: none;
+}
+.flight-filter ul {
+    border: 1px solid #ddd;
+}
+.desk-filter ul li , .flight-filter ul li  {
+    float: left;
+    padding-right: 20px;
+}
+.desk-filter .priceUtL {
+    padding-right: 15px;
+}
+.flight-table strong {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 13px;
+    font-weight: normal !important;
+    padding-left: 10px;
+}
+.flight-table span {
+    color: #999999;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+}
+.flight-table span.date {
+    color: #666666;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+}
+.flight-table tr {
+    border: 1px solid #ddd;
+}
+.flight-table td {
+    padding: 15px !important;
+    text-align: center;
+}
+.flight-table td:nth-child(4) {
+    border-right: 1px solid #ddd;
+}
+.flight-table td:nth-child(5) {
+    border-right: 1px solid #ddd;
+    padding: 0 !important;
+}
+.flight-table td:nth-child(6) {
+    border-right: 1px solid #ddd;
+    padding: 10px 0 0 !important;
+}
+.flight-table tr:nth-child(3) {
+    margin-top: 20px !;
+}
+.flight-table td strong {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 16px;
+    font-weight: normal !important;
+    padding-left: 10px;
+}
+.flight-table td span {
+    color: #999999;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+}
+.flight-table td span.date {
+    color: #666666;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+}
+.flight-table span.price {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 20px;
+    font-weight: normal !important;
+    padding-left: 10px;
+}
+.deals-table tr {
+    border: none !important;
+}
+.deals-table td {
+    padding: 15px 15px 0 20px !important;
+    border-top: none !important;
+    text-align: left;
+}
+.deals-table span.deal {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+}
+.table {
+    margin: 5px 0;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.price-table tr {
+    border: none !important;
+}
+.price-table td {
+    padding: 15px 15px 0 20px !important;
+    border-top: none !important;
+    text-align: left;
+    border-right: 1px solid #ddd;
+}
+.price-table td:last-child {
+    border-right: none;
+}
+.price-table td span.deal {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+}
+.price-table tr:nth-child(2) td {
+    border-top: 1px solid #ddd !important;
+    padding: 5px 0 !important;
+    text-align: center;
+}
+.price-table tr:nth-child(2) td a {
+    color: #4c4c4c;
+    text-decoration: none;
+    font-family: Montserrat-regular;
+    font-size: 9px;
+}
+.price-table tr:nth-child(2) td a:hover, .price-table tr:nth-child(2) td a:focus {
+    text-decoration: none;
+    outline: none;
+}
+.btn-select {
+    background: #d71a21;
+    color: #fff;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.flight-table td span.seat {
+    color: #d71a21 !important;
+    font-size: 11px !important;
+    line-height: 40px;
+}
+.btn-select:hover, .btn-selectme:hover, .btn-loadmore:hover, .btn-select:focus {
+    color: #fff;
+}
+.btn-selectme {
+    background: #787878;
+    color: #fff;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.loadmore {
+    padding: 15px 0 25px;
+    text-align: center;
+}
+.btn-loadmore {
+    -moz-user-select: none;
+    background: #4c4c4c none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* /- Flights  section */
+
+
+/* Car Page  section */
+
+.cartab .col-md-6 {
+    padding: 10px;
+}
+.cartab .col-md-12 {
+    padding: 10px;
+}
+.cartab label {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    font-weight: normal !important;
+    padding: 0 0 0 10px;
+    display: inline-flex;
+}
+.cartab input[type="checkbox"] {
+    display: none;
+}
+.cartab input[type="checkbox"] + label span {
+    background-size: cover;
+    border: 1px solid #d7d7d7;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    margin: 3px 10px 0 0 !important;
+    vertical-align: middle;
+    width: 15px;
+}
+.cartab input[type="checkbox"]:checked + label span {
+    background: url(../images/checkmark_1.png) left top no-repeat;
+    background-size: cover;
+}
+.carshow h3 {
+    color: #ee3a3e;
+    font-family: Montserrat-regular;
+    font-size: 18px;
+}
+.carshow h2 {
+    color: #d83844;
+    font-family: Montserrat-b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.carshow .col-md-4 > span.circle {
+    background: #ee3a3e none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 8px 10px;
+    text-align: center;
+    width: 30px;
+}
+.offer {
+    margin-top: 30px;
+}
+.offer span {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    font-weight: normal !important;
+    padding-left: 5px;
+}
+.btn-choose {
+    -moz-user-select: none;
+    background: #d71a21 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.carshow {
+    border: 1px solid #ddd;
+}
+.carshow:last-child {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.carshow .row {
+    margin: 0;
+}
+.carshow h4 {
+    color: #ee2d33;
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+}
+.carshow h4 span {
+    font-size: 36px;
+}
+.btn-choose:hover, .btn-choose:focus {
+    color: #fff;
+    outline: none;
+}
+.nav-tabs > li.activright > a, .nav-tabs > li.activright > a:hover, .nav-tabs > li.activright > a:focus {
+    background-color: #d71a21 !important;
+    color: #fff !important;
+    margin: 0px 0px 0;
+}
+.tabright {
+    float: right !important;
+    margin: 4px 0 0;
+    padding-right: 15px;
+}
+
+/*/- Car Page  section */
+
+
+/* Hotel Page  section */
+
+.hotelform {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px dotted #ddd;
+    margin-bottom: 20px;
+}
+.hotelform h3 {
+    border: 1px dotted #ddd;
+    color: #333;
+    font-family: Montserrat-bold;
+    margin: 15px 0 20px 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.hotelform label {
+    color: #333;
+    font-size: 17px;
+    margin-top: 30px;
+    text-align: right;
+}
+.hotelform .form-control {
+    height: 34px;
+    margin-top: 30px;
+    padding: 6px 12px;
+}
+.hotelform .col-md-2:first-child {
+    width: 17%;
+}
+.hotelform .col-md-2 {
+    width: 12%;
+}
+.hotelform .col-md-1 {
+    width: 8%;
+    text-align: center;
+}
+.hotelform .fa {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.hotelform .btn-default {
+    background: #b2b2b2;
+    color: #fff;
+    font-family: Montserrat-Reguler;
+    margin-top: 30px;
+}
+.custom-checkbox label {
+    color: #4c4c4c;
+    display: inline-flex;
+    font-family: Montserrat-regular;
+    font-size: 10px;
+    font-weight: normal !important;
+    padding: 0;
+}
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+.custom-checkbox input[type="checkbox"] + label span {
+    background-size: cover;
+    border: 1px solid #d7d7d7;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    margin: 2px 10px 0 0 !important;
+    vertical-align: middle;
+    width: 15px;
+}
+.custom-checkbox input[type="checkbox"]:checked + label span {
+    background: url(../images/checkmark_1.png) left top no-repeat;
+    background-size: cover;
+}
+.checkbox-cnt {
+    margin-left: 10px;
+}
+.hoteltab .col-md-2 {
+    margin: 8px 0;
+    padding: 0;
+}
+.leftsidebar {
+    background: #f8f8f8 none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding: 10px 15px 20px;
+}
+.row.mainarea {
+    margin: 0;
+}
+.mainarea {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.mainarea > h4 {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    padding: 15px;
+}
+.mainarea label {
+    color: #4c4c4c;
+    display: inline-flex;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    font-weight: normal !important;
+    margin-top: 10px;
+    padding: 0;
+}
+.gray {
+    color: gray;
+    outline: medium none;
+    text-decoration: none;
+}
+.yellow {
+    color: yellow;
+    outline: medium none;
+    text-decoration: none;
+}
+.gray:hover, .gray:focus, .yellow:hover, .yellow:focus {
+    text-decoration: none;
+    outline: medium none;
+    background-color: none;
+    color: none;
+}
+.mainarea input[type="checkbox"] {
+    display: none;
+}
+.mainarea input[type="checkbox"] + label span {
+    background-size: cover;
+    border: 1px solid #d7d7d7;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    margin: 3px 10px 0 0 !important;
+    vertical-align: middle;
+    width: 15px;
+}
+.mainarea input[type="checkbox"]:checked + label span {
+    background: url(../images/checkmark_1.png) left top no-repeat;
+    background-size: cover;
+}
+.mainarea .col-md-12 {
+    padding: 5px 15px;
+}
+.content-area .col-md-10 {
+    padding: 0;
+}
+.content-area p a span {
+    color: #dd0000;
+    font-weight: bold;
+    text-decoration: underline;
+    float: right;
+}
+.content-area p {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.fonts {
+    margin-top: 60px;
+}
+.fonts .fa {
+    color: #dd0000;
+    font-size: 18px;
+}
+#gmap_canvas img {
+    max-width: none!important;
+    background: none!important
+}
+.deals h3 {
+    font-size: 27px;
+    margin-top: 20px;
+}
+.deals {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 10px 0 80px;
+}
+.btn-hotel {
+    background-color: #f12612;
+    border-radius: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 17px;
+    padding: 5px 10px;
+}
+.deals h4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.deals .break {
+    color: #009900;
+}
+.deals .refund {
+    color: #f12612;
+}
+.btn-selectdeal {
+    background-color: #009900;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+.btn-otherdeal {
+    background-color: #dddddd;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+/* jssor slider bullet navigator skin 03 css */
+
+
+/*
+        .jssorb03 div           (normal)
+        .jssorb03 div:hover     (normal mouseover)
+        .jssorb03 .av           (active)
+        .jssorb03 .av:hover     (active mouseover)
+        .jssorb03 .dn           (mousedown)
+        */
+
+.slider {
+    width: 100% !important;
+}
+.jssorb03 {
+    position: absolute;
+}
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    color: white;
+    font-size: 12px;
+    background: url('images/img/b03.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb03 div {
+    background-position: -5px -4px;
+}
+.jssorb03 div:hover, .jssorb03 .av:hover {
+    background-position: -35px -4px;
+}
+.jssorb03 .av {
+    background-position: -65px -4px;
+}
+.jssorb03 .dn, .jssorb03 .dn:hover {
+    background-position: -95px -4px;
+}
+
+/* jssor slider thumbnail navigator skin 16 css */
+
+
+/*
+        .jssort16 .p            (normal)
+        .jssort16 .p:hover      (normal mouseover)
+        .jssort16 .pav          (active)
+        .jssort16 .pav:hover    (active mouseover)
+        .jssort16 .pdn          (mousedown)
+        */
+
+.jssort16 .p {
+    border: 10px solid;
+    height: 103px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 120px;
+}
+.jssort16 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100px;
+    border: none;
+}
+.jssort16 .p img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100px;
+    filter: alpha(opacity=55);
+    opacity: .55;
+    transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -webkit-transition: opacity .6s;
+    -o-transition: opacity .6s;
+}
+.jssort16 .pav img, .jssort16 .pav:hover img, .jssort16 .p:hover img {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+.jssort16 .pav:hover img, .jssort16 .p:hover img {
+    filter: alpha(opacity=70);
+    opacity: .7;
+}
+.jssort16 .title, .jssort16 .title_back {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+.jssort16 .title_back {
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.jssort16 .pav .title_back {
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.jssort16 .pav .title {
+    color: #fff;
+}
+.jssort16 .p.pav:hover .title_back, .jssort16 .p:hover .title_back {
+    filter: alpha(opacity=40);
+    opacity: .4;
+}
+.jssort16 .p.pdn img {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+#sticky {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+}
+#sticky.stick {
+    background: #fff none repeat scroll 0 0;
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.affixed-top {
+    margin-top: 244px;
+}
+.transformer-tabs li a img {
+    height: 28px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.modify-button {
+    padding: 10px 0px;
+    position: relative;
+}
+a.modify-button:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: #ddd;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.traveller {
+    padding: 8px;
+}
+#filter-button {
+    padding: 10px 0px;
+    float: right;
+}
+a.travel-city span {
+    font-size: 16px;
+}
+.padtb10 {
+    padding: 11px 0;
+}
+.borderddd {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.bottomddd {
+    border-bottom: 1px solid #ddd;
+}
+.rightddd {
+    border-right: 1px solid #ddd;
+}
+.topddd {
+    border-top: 1px solid #ddd;
+}
+.padtb6 {
+    padding: 5px 0;
+}
+.padtb11 {
+    padding: 11px 0;
+}
+.flight-table .price-holder {
+    padding: 13px 0 14px 0;
+}
+.flight-table .select-me {
+    padding: 15px 0 14px 0;
+}
+.other-deal input[type="radio"] {
+    transform: scale(1.3);
+}
+@media (max-width: 992px) {
+    .w33 {
+        width: 33.33%;
+    }
+}
+.flight-detail-trigger {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 9px;
+    padding: 5px 0px;
+}
+.view-deals {
+    font-size: 9px;
+    border-top: 1px solid #ddd;
+    padding: 6px 0px;
+}
+.view-deals a {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    text-decoration: none;
+}
+.date-toggle-wrap {
+    margin-left: 13px;
+}
+.transformer-tabs.nav>li>a {
+    padding: 10px 10px;
+}
+.tabs-wrap {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Accomodation tab*/
+
+.hotel-pic {
+    float: left;
+    width: 230px;
+}
+.car-pic {
+    float: left;
+    width: 350px;
+        border: 1px solid #ddd;
+    padding: 10px 0px;
+}
+.car-pic h4 {
+    padding-left: 20px;
+}
+.hotel-pic img {
+    width: 100%;
+    height: 154px;
+}
+.hotel-info {
+    display: inline-block;
+    width: calc(100% - 235px);
+    border-top: 1px solid #ddd;
+}
+.car-info {
+    width: calc(100% - 350px);
+}
+.hotel-info h4 {
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: "Montserrat-regular";
+}
+.hotel-info .star {
+    padding-left: 25px;
+}
+.hotel-review {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+.hotel-review h4 {
+    color: #79AE34;
+    font-size: 17px;
+}
+.review-score {
+    position: absolute;
+    right: 3px;
+    top: 10px;
+    background: #79AE34;
+    border-radius: 50%;
+    padding: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+.twin h5 {
+    font-family: "Montserrat-regular";
+    margin: 0;
+    font-size: 16px;
+}
+.twin i.fa {
+    font-size: 24px;
+    color: #999;
+    margin-right: 10px;
+}
+.twin i.fa.fa-h-square {
+    color: #111;
+}
+.rating {
+    float: left;
+}
+.hotel-cost {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    float: right;
+    font-size: 12px;
+    font-family: "Montserrat-regular";
+}
+.accom-row {
+    padding: 15px 0px;
+    border-bottom: 1px solid gray;
+}
+.small-text {
+    font-size: 12px;
+    font-family: "Montserrat-regular";
+    color: #999;
+}
+span.small-text {
+    margin-left: 5px;
+}
+.strike-cost {
+    color: red;
+    text-decoration: line-through;
+}
+.hotel-review .btn {
+    margin-top: 10px;
+}
+.tab-header.hotels-tab-header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    padding: 5px 0px;
+}
+.hotel-dates {
+    font-weight: bold;
+    font-size: 16px;
+}
+.hotel-nights {
+    font-size: 12px;
+}
+.city-toggle {
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*div.control-buttons {
+    clear: both;
+}*/
+
+.control-button a {
+    padding: 10px;
+    background-color: #4c4c4c;
+    color: white;
+    font-size: 12px;
+}
+.control-button a:hover {
+    text-decoration: none;
+}
+.control-button {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.rating {
+    color: rgb(253, 192, 45);
+}
+@media only screen and (max-width: 998px) {
+    .tab-header {
+        background-color: #fff;
+        color: #7A7A7A;
+    }
+    /*.city-toggle-container {
+        position: absolute;
+        top: 23px;
+        right: 3px;
+    }*/
+    .city-toggle-container .city-toggle {
+        font-size: 11px;
+        font-style: italic;
+        cursor: pointer;
+    }
+    .hotel-details {
+        border-top: 1px solid #ddd;
+        padding-top: 3px;
+    }
+    .hotel-info {
+        border: 1px solid #ddd;
+        padding-top: 7px;
+    }
+    .hotel-cost {
+        border-left: 1px solid #ddd;
+    }
+    .tab-header-menu div span, .indicator-arrow {
+        color: #7a7a7a;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .pt10 {
+        padding-top: 10px;
+    }
+    .control-button a.modify-button {
+        background-color: transparent;
+        position: relative;
+        font-size: 16px;
+        font-family: Montserrat-regular;
+    }
+    /*.control-button a.modify-button:after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background: white;
+        height: 15px;
+        right: 0px;
+        top: 8px;
+        border-radius: 50%;
+        margin-left: 15px;
+    }*/
+}
+.left-tabs .tab-content .tab-pane {
+    padding-top: 20px;
+}
+.border {
+    border: 1px solid #e5e5e5;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    border: none;
+    border-right: 1px solid #ddd;
+}
+.search-ip {
+    border: 1px solid #ddd;
+    height: 35px;
+    padding: 5px;
+    font-size: 12px;
+}
+.fa.search {
+    margin-left: -25px;
+}
+.relative {
+    position: relative;
+}
+.budget {
+    font-weight: bold;
+    color: #999;
+    padding: 0;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 4px;
+    padding-right: 17px;
+}
+.budget .fa {
+    color: #000;
+    padding-left: 5px;
+    font-size: 18px;
+}
+.budget-cont {
+    padding-right: 15px;
+}
+.budget-cont .btn {
+    padding: 5px;
+    margin: 5px 0;
+}
+.border {
+    border: 1px solid #e5e5e5;
+}
+.pad10 {
+    padding: 10px;
+}
+.padzero {
+    padding: 0;
+}
+.padl10 {
+    padding-left: 10px;
+}
+
+/*Landing page css*/
+
+.search-bar .box {
+    border: 1px solid #f0f0f0;
+}
+.check-chkbx .checkbox {
+    padding-left: 0px;
+    text-align: center;
+}
+
+/*.caret.caret-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}*/
+
+@media (max-width: 990px) {
+    .group-D, .group-D {
+        clear: both;
+    }
+}
+.group-B .row:last-child {
+    border: 1px solid #f0f0f0;
+}
+.full-width {
+    width: 100%;
+}
+.dropdown .dropdown-toggle {
+    color: #a5a5a5;
+    text-align: left;
+    padding-left: 5px;
+}
+.input-group-addon + .dropdown {
+    padding: 15px 0;
+}
+.group-D .input-group .input-group-addon, .group-D .input-group .input-group-addon + input.form-control {
+    padding-left: 0;
+    padding-right: 0;
+}
+.buton .button_area .btn-default {
+    margin-left: 0;
+}
+.fa.close {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    color: #D71A21;
+    right: -25px;
+    transform: translate(0px, -50%);
+    opacity: 0.9;
+}
+.fa.Caret {
+    position: absolute;
+    color: #a5a5a5;
+    font-size: 20px;
+    top: 40%;
+    line-height: 20px;
+    transform: translate(0, -60%);
+    right: 3px;
+}
+.popover-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+.popover-content ul li {
+    margin-bottom: 7px;
+}
+.select-travellers {
+    display: inline-block;
+    margin-left: 7px;
+    border-radius: 5%;
+    border: 1px solid #009dbd;
+}
+.select-travellers span {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    width: 40px;
+    color: #009dbd;
+    text-align: center;
+}
+.select-travellers span i.fa {
+    font-size: 24px;
+    line-height: 40px;
+}
+.select-travellers .selected-value {
+    border-left: 1px solid #009dbd;
+    border-right: 1px solid #009dbd;
+    color: #111;
+    font-weight: bold;
+    line-height: 40px;
+}
+.popover-content label.Title {
+    display: block;
+    margin-bottom: 0;
+}
+.popover-content label.desc {
+    line-height: 40px;
+    margin-left: 10px;
+}
+.popover-title {
+    font-weight: bold;
+}
+.traveller, .selected-rooms {
+    display: block;
+    color: #a5a5a5;
+    height: 20px;
+}
+@media (min-width: 992px) {
+    .padlZero {
+        padding-left: 0 !important;
+        padding-right: 7px !important;
+    }
+    .container {
+        width: 980px;
+    }
+    .col-xs-4 .traveller, .col-xs-4 .selected-rooms {
+        width: 60px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media (max-width: 992px) {
+    .fa.Caret {
+        font-size: 24px;
+        right: 5px;
+        transform: translate(0, -63%);
+    }
+}
+@media only screen and (max-width: 767px) {
+    .fa.close {
+        right: -12px;
+    }
+}
+.filter1 .form-control, .filter1 {
+    font-size: 12px;
+}
+.popover {
+    font-size: 12px;
+}
+.tab-content {
+    clear: both;
+}
+.filter .nav-tabs>li.active>a {
+    border: none;
+}
+#view-deals-modal select {
+    width: 250px;
+    padding: 5px;
+}
+.price-cont {
+    color: #79AE34;
+    font-family: Montserrat-regular;
+}
+.pric {
+    margin-right: 7px;
+    line-height: 40px;
+    font-family: Montserrat-regular;
+}
+.descri {
+    width: 65%;
+    margin-left: 10px;
+}
+.descri p {
+    font-family: Montserrat-regular;
+    margin: 0;
+}
+.descri a {
+    font-family: Montserrat-regular;
+}
+#left-filter .checkbox label::before {
+    content: none;
+}
+.h40 {
+    height: 40px;
+}
+.h40 img {
+    height: 40px;
+}
+.desc-cont {
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+.ptb0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+button:focus {
+    outline: none;
+}
+.left-tabs .nav-tabs > li {
+    width: 50%;
+}
+.sort-flights ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.sort-flights ol li label {
+    border-top: 1px solid #c4c7cc;
+    color: #34363D;
+    cursor: pointer;
+    padding: 12px;
+    font-weight: 700;
+    display: block;
+    transition: background .1s ease-in-out;
+    margin: 0;
+}
+.sort-flights ol li label .label-text {
+    pointer-events: none;
+    float: left;
+}
+.sort-flights ol li label input {
+    pointer-events: none;
+    border: none;
+    box-sizing: content-box;
+    float: right;
+    height: 16px;
+    width: 16px;
+    padding: 0;
+}
+.sort-flights ol li:first-child label {
+    border-top: 0px;
+}
+#gmap_canvas {
+    height: 400px;
+}
+#map-hotel-location {
+    height: 200px;
+}
+#hotel-info-modal {
+    font-size: 12px;
+}
+#hotel-info-modal h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+#hotel-info-modal ul.top-features {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+ul.top-features li.disabled {
+    color: #ccc;
+}
+ul.top-features li {
+    padding: 10px 0px;
+}
+ul.top-features li span {
+    margin-left: 10px
+}
+.room-detail-header {
+    font-weight: bold;
+}
+#hotel-info-modal ul {
+    margin: 0;
+    padding: 0;
+}
+#hotel-info-modal .modal-body {
+    padding-top: 0px;
+}
+#menu1 input[type="radio"],#menu2 input[type="radio"] {
+    margin-left: -10px;
+    margin-right: 6px;
+}
+.hoteltab {
+    font-size: 10px;
+    font-family: Montserrat-regular;
+}
+.hoteltab input[type="checkbox"] {
+    position: relative;
+    top: 4px;
+}
+@media only screen and (min-width: 998px) {
+    .accom-row .view-deals {
+        padding: 9px 0px;
+    }
+    .accom-row .flight-table {
+        text-align: left;
+    }
+    .accom-row .review-score {
+        right: -21px;
+        top: 5px;
+    }
+    .accom-row .hotel-review {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .hotel-cost {
+        padding: 4px;
+    }
+    .deals-section {
+        text-align: center;
+    }
+    .best-deal {
+        text-align: center;
+        height: 91px;
+        float: right;
+        border-left: 1px solid #ddd;
+    }
+    .best-deal img {
+        width: 56px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .deals-discount {
+        position: absolute;
+        background: #de4a04;
+        color: white;
+        top: 2px;
+        right: 3px;
+        font-size: 11px;
+        padding: 2px;
+    }
+    #menu1 .tab-header {
+        color: white;
+    }
+    .city-toggle {
+        color: #ccc;
+    }
+    .hotel-info h4 {
+        padding-top: 9px;
+    }
+    .hotel-pic img {
+        height: 182px;
+    }
+    .new-cost + .btn {
+        padding: 4px 12px;
+    }
+}
+@media only screen and (max-width: 998px) {
+    a.modify-button:after {
+        content: none
+    }
+    .transformer-tabs li a img {
+        background: white;
+    }
+    .hid {
+        display: none !important;
+    }
+    .sho {
+        display: block !important;
+    }
+    #sort-filter-modal h4 {
+        display: inline;
+        font-family: Montserrat-regular;
+        line-height: 30px;
+    }
+    #sort-filter-modal label {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        font-family: Montserrat-regular;
+        padding: 0 10px 5px 10px;
+    }
+    #sort-filter-modal input[type="radio"] {
+        float: right;
+        transform: scale(1.3);
+    }
+    .date-picker-input {
+        color: #7a7a7a;
+    }
+    .control-button a {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+    .date-toggle-wrap .fa {
+        color: rgb(36, 166, 200);
+    }
+    .hotel-popup-link {
+        cursor: pointer;
+        border-bottom: 1px solid #ddd;
+    }
+    .hotel-cost {
+        padding-bottom: 19px;
+        border-bottom: none;
+    }
+}
+.tab-header-menu .fa {
+    cursor: pointer;
+}
+.flght-itin, .fare-rules {
+    cursor: pointer;
+}
+.flght-itin:hover, .fare-rules:hover {
+    color: red;
+}
+.nav-tabs>li>a {
+    font-family: Montserrat-regular;
+}
+.left-tabs .nav-tabs>li>a {
+    color: #666;
+    text-align: center;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #d71a21;
+    text-decoration: underline;
+}
+.left-tabs .ui-slider-horizontal, .left-tabs .ui-slider .ui-slider-range {
+    height: 10px;
+}
+.left-tabs .ui-slider .ui-slider-handle {
+    height: 15px;
+    width: 15px;
+}
+.left-tabs .sliders_step1 {
+    margin-bottom: 15px;
+}
+.left-tabs .slider-time11, .left-tabs .slider-time10 {
+    padding-top: 16px !important;
+    padding-bottom: 4px !important;
+}
+.left-tabs .checkbox input[type="checkbox"], .left-tabs .checkbox input[type="radio"] {
+    opacity: 1;
+}
+.checkbox-cnt label {
+    font-family: Montserrat-regular;
+    font-size: 11px;
+    color: #4c4c4c;
+}
+#show-map {
+    height: 300px;
+    margin-bottom: 20px;
+}
+.nav-tabs .view-map, .nav-tabs .left-tab-filter {
+    border-bottom: 1px solid #ddd;
+    margin-right: 0 !important;
+}
+li.active .view-map {
+    border-left: 1px solid #ddd !important;
+    border-bottom: none;
+}
+li.active .left-tab-filter {
+    border-right: 1px solid #ddd !important;
+    border-bottom: none;
+}
+.left-tabs .nav-tabs > li {
+    margin-bottom: -2px !important;
+}
+.left-tabs .nav-tabs {
+    border-bottom: none;
+}
+.left-tabs .tab-content label {
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    color: #4c4c4c;
+}
+.filter-button {
+    padding: 10px 0px;
+    display: inline-block;
+    float: right;
+}
+.flight-points-right {
+    float: right;
+}
+.fare-info {
+    float: left;
+    width: 70%;
+}
+.fare-value {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+.fareRulesDesc p {
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.padT20 {
+    padding-top: 20px;
+}
+.padT10 {
+    padding-top: 10px;
+}
+.fareRulesDesc ul, .itinerarySummary {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#flightIteneraryModal h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+#flightIteneraryModal h4 .status {
+    margin: -2px 0 -1px 5px;
+}
+.status {
+    color: #fff;
+    background: #999;
+    border-radius: 0.35em;
+    display: inline-block;
+    font-size: 9.75px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.6em;
+    padding: 0 0.35em;
+    text-align: center;
+    text-shadow: 0 0px 0 rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    vertical-align: middle;
+    box-shadow: 0px 1px 1px #ffffff;
+}
+.status.caution {
+    background: #ff9900;
+    color: #fff;
+}
+.airLogo {
+    float: left;
+}
+.airlineName {
+    float: left;
+    width: 70%;
+    font-size: 13px;
+}
+.travelDate {
+    display: block;
+}
+.itinerary small {
+    font-size: 11px;
+    color: #999;
+    line-height: 1em;
+}
+.vendor small {
+    display: block;
+}
+.modal-body {
+    height: 500px;
+    overflow-y: scroll;
+}
+.other-deal img {
+    height: 25px;
+}
+.transformer-tabs .active-img {
+    display: none;
+}
+.transformer-tabs .active .active-img {
+    display: inline-block;
+}
+.transformer-tabs .active .disabled-img {
+    display: none;
+}
+.outer-border {
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.flight-table .flight-num {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 6px;
+}
+.greybg {
+    background: #ccc;
+}
+.flight-table ul li.airline{
+    text-align: left;
+    padding-left: 14px;
+}
+ul.flight-filter{
+    padding-left: 24px;
+}
+
+.modify-filter .button_area {
+    margin-top: 20px;
+}
+
+.modify-filter .search-book {
+    max-width: 145px;
+    padding: 10px;
+}
+
+.car-info .twin i.fa {
+    font-size: 15px;
+}
+.car-info .accom-row .hotel-review {
+        padding-bottom: 5px;
+}
+.car-pic img{
+    width: 100%;
+}
+i.car-feature {
+    padding: 5px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    width: 25px;
+    display: inline-block;
+}
+
+.car-features-list {
+    margin:10px 0px;
+    font-size: 12px;
+}
+
+
+.car-info .btn-select {
+    margin: 15px 0px;
+}
+#menu2 .date-toggle-wrap  {
+    margin:0;
+    padding-left: 60px;
+}
+.car-row {
+    border: none;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.features-row {
+    padding: 14px 0px
+}
+
+.select-area-filter h4 {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.select-area-filter .form-group {
+    display: inline-block;
+}
+.select-area-filter .search-ip {
+    width: 150px;
+}
+
+.select-area-filter ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-height: 182px;
+    overflow-y: auto;
+}
+
+.select-area-filter ol li label {
+    border-top: 1px solid #c4c7cc;
+    color: #34363D;
+    cursor: pointer;
+    padding: 12px;
+    font-weight: 700;
+    display: block;
+    transition: background .1s ease-in-out;
+    margin: 0;
+}
+
+.select-area-filter ol li label .label-text {
+    pointer-events: none;
+    float: left;
+}
+
+.select-area-filter ol li label input {
+    pointer-events: none;
+    border: none;
+    box-sizing: content-box;
+    float: right;
+    height: 16px;
+    width: 16px;
+    padding: 0;
+}
+
+.select-area-filter > div {
+    padding-top: 10px;
+}
+
+.car-filter-col-odd {
+    padding: 31px 15px;
+    border: 1px solid #ddd;
+    border-top: 0px;
+}
+
+.car-filter-col-even {
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+    border-top: 0px;
+}
+
+.no-padd {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.book_box {
+    display: inline-block;
+    padding: 6px 20px;
+    background: #d71a21;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    margin-left: 15px;
+    box-shadow: 5px 0 5px -3px #666, -7px 0 5px -4px #666;
+}
+
+.book_box.inactive {
+    box-shadow: none;
+}
+
+.book_box.inactive:after {
+    display: none;
+}
+
+.book_box:after {
+    background-image: url('../images/price-tag.png');
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    top: 0px;
+    left: 100%;
+        background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.booking-value {
+    color: #666666;
+    background: #fff;
+    margin-bottom: 5px;
+}
+.book_box-mask {
+    display: none;
+}
+.book_box.inactive .book_box-mask{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #666;
+    display: block;
+    font-size: 11px;
+    text-align: left;
+    padding: 3px;
+}
+.bookMenu-box {
+    visibility: hidden;
+}

@@ -1,0 +1,325 @@
+.book_box {
+    padding-bottom: 15px;
+}
+.tabright {
+    float: right !important;
+    padding-top: 15px;
+}
+.flight-table td {
+    padding: 15px 0 !important;
+    text-align: center;
+}
+.last-col {
+    padding-left: 0px !important;
+    width: 33%;
+}
+.second-col {
+    padding-left: 0 !important;
+    width: 33%;
+}
+.secondlast-col {
+    margin-left: 0;
+    padding-left: 0 !important;
+    padding-right: 0;
+    width: 33%;
+}
+.box1 {
+    border-right: 1px solid #f0f0f0;
+    width: 249px;
+}
+.box2 {
+    border-right: 1px solid #f0f0f0;
+    width: 249px;
+}
+.box3 {
+    border-right: 1px solid #f0f0f0;
+    width: 240px;
+}
+.multi {
+    float: none;
+    margin-left: 30px !important;
+    margin-right: 0 !important;
+    margin-top: 15px !important;
+    text-align: center;
+}
+.filters-tabs li a {
+    border-bottom: 2px solid transparent !important;
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 13px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+}
+.nav > li > a {
+    display: block;
+    padding: 10px 24px;
+    position: relative;
+}
+.innre-page-tabs a {
+    color: #666666;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    padding: 23px 10px;
+    text-transform: capitalize;
+}
+.nav-tabs > li {
+    margin-bottom: 0 !important;
+}
+.hotelform .col-md-2:first-child {
+    width: 25%;
+}
+.hotelform .col-md-2 {
+    width: 25%;
+}
+.hotelform .col-md-1 {
+    text-align: center;
+    width: 12%;
+}
+.hoteltab .col-md-2 {
+    margin: 20px 0;
+    width: 33%;
+}
+.fa-heart::before {
+    content: "";
+}
+.fonts .fa {
+    color: #dd0000;
+    font-size: 12px;
+}
+.deals h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.btn-hotel {
+    background-color: #f12612;
+    border-radius: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 17px;
+    padding: 5px 8px;
+}
+.deals h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.deals {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 11px 0 135px;
+}
+.hotelform .form-control {
+    margin-top: 30px;
+}
+.tab-header.hotel {
+    background-color: #f8f8f8;
+    border: 1px dotted #ddd;
+    margin-bottom: 20px;
+    padding: 0 20px 0 0;
+}
+.hotelform .btn-default {
+    background: #b2b2b2 none repeat scroll 0 0;
+    color: #fff;
+    font-family: Montserrat-Reguler;
+    margin-top: 33px;
+    padding: 5px 15px;
+}
+.hoteltab {
+    margin-top: 30px;
+}
+.leftsidebar {
+    background: #f8f8f8 none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mainarea label {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 13px;
+    font-weight: normal !important;
+    padding: 0 0 0 5px;
+}
+.xs-book-button {
+    display: none;
+}
+.navbar-default {
+    margin-bottom: 0px;
+}
+.book_box img {
+    height: 30px;
+}
+.xs-no-padd {
+    padding: 0px;
+}
+.transformer-tabs:after {
+    content: "☰";
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    color: red;
+    z-index: 2;
+    pointer-events: none;
+}
+.transformer-tabs li {
+    display: none;
+}
+.transformer-tabs.open li {
+    display: block;
+}
+.transformer-tabs li.active {
+    display: block;
+}
+.affixed-top {
+    margin-top: 204px;
+}
+.tab-header-menu div {
+    font-size: 12px;
+}
+a.travel-city span {
+    font-size: 12px;
+    padding: 0px;
+}
+.tab-header-menu div a {
+    font-size: 12px;
+}
+.indicator-arrow {
+    margin-top: 1px;
+    margin-left: 3px;
+}
+.tab-header-menu .destination {
+    margin-left: 20px;
+}
+.tab-header-menu span.traveller {
+    /*font-size: 8px;*/
+	font-size:10px;
+}
+.date-picker-input {
+    width: 70px;
+}
+.date-toggle-wrap {
+    text-align: center;
+}
+#filter-button {
+    float: left;
+    padding: 0px 15px;
+}
+div.control-buttons {
+    /*margin-top: 30px;*/
+	margin-top:0;
+    display: block;
+}
+.flight-logo {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.flight-table strong {
+    font-size: 12px;
+}
+.flight-logo img {
+    height: 35px;
+}
+.flight-detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    border-top: 0px;
+}
+.other-deal {
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    transition: max-height 1s;
+}
+.open .other-deal {
+    max-height: 500px;
+    padding: 5px 0;
+}
+.open .flight-detail {
+    max-height: 500px;
+    border-top: 1px;
+}
+.date-toggle-wrap {
+    margin-left: 0px;
+}
+.flight-table span.price {
+    font-size: 12px;
+}
+.btn-selectme, .btn-danger {
+    font-size: 1`px;
+    width: 100px;
+}
+.tabs-wrap {
+    width: 100%;
+    position: relative;
+	padding-right:0;
+	padding-left:12px;
+}
+.book_box {
+    padding-bottom: 5px;
+    text-align: center;
+}
+.navbar-brand > img {
+    display: block;
+    /*margin: 0 auto;*/
+	margin:0 15px;
+}
+.navbar-brand {
+    float: none;
+}
+.result-tabs .nav-tabs > li {
+    width: 100%;
+   /* padding-right: 15px;*/
+}
+.book-buttons {
+    margin: 0 auto;
+}
+.tab-header-menu {
+    list-style-type: none;
+    padding: 10px 10px;
+    width: 100%;
+}
+.flight-detail-trigger, .view-deals {
+    padding: 10px 0px;
+}
+.navbar-collapse.collapse.hidden-sm {
+    display: none!important;
+}
+.navbar-header {
+    float: none;
+}
+.table-responsive {
+    border: 1px solid #ddd;
+}
+.innre-page-tabs a {
+    color: #666666;
+    font-family: Montserrat-regular;
+    font-size: 13px;
+    padding: 4px !important;
+    text-transform: capitalize;
+}
+.outer-border{
+	border:none;
+}
+.innre-page-tabs{
+	border-bottom:1px solid #ddd !important;
+	margin-right:17px;
+}
+.innre-page-tabs li:nth-child(2){
+	border-bottom:1px solid #ddd;
+}
+.indicator-arrow{
+	position:static;
+}
+.budget-cont .btn{
+	margin-right:4px;
+}
+.flight-table .borderddd{
+	border-left:none;
+}

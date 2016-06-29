@@ -1,0 +1,787 @@
+h1 {
+    color: #4c4c4c;
+    font-family: Montserrat-Bold;
+    font-size: 33px;
+    text-align: center;
+}
+.login-nav {
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+    text-align: center;
+    width: 55%;
+}
+.navbar-brand {
+    float: none;
+    font-size: 18px;
+    height: 50px;
+    line-height: 20px;
+    padding: 0;
+}
+.navbar-brand > img {
+    display: block;
+    margin: 0 auto;
+}
+.book-buttons {
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+}
+.button_area .btn-default {
+    background: #b2b2b2 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.update_box h3 {
+    color: #222222;
+    font-family: Montserrat-regular;
+    font-size: 18px;
+    margin: 15px 0 19px;
+    text-align: center;
+}
+.update_box p {
+    color: #777777;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    text-align: center;
+}
+.update_box a {
+    color: #d71a21;
+    display: block;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.secondlast-col {
+    padding-left: 5px !important;
+    width: 100%;
+}
+.last-col {
+    padding-left: 5px !important;
+    width: 100%;
+}
+.box1 {
+    border-right: 1px solid #ddd;
+    width: 106px;
+}
+.box2 {
+    border: 1px solid #f0f0f0;
+    width: 106px;
+}
+.box3 {
+    border: 1px solid #f0f0f0;
+    width: 106px;
+}
+.multi {
+    float: none;
+    margin-left: 130px !important;
+    margin-right: 0 !important;
+    margin-top: 15px !important;
+    text-align: center;
+}
+.plaine {
+    height: 70px;
+    width: 60px;
+}
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 15px;
+    height: 50px;
+    line-height: 1.42857;
+    padding: 10px 5px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.button_area {
+    border-bottom: 2px solid #ddd;
+    margin-top: 56px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+/*
+.enter-price {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-right: 1px solid #f0f0f0;
+    margin-top: 0;
+    padding: 0 10px 10px 0;
+}
+
+.border_right {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-right: 1px solid #f0f0f0 !important;
+    padding: 0 10px 10px 0;
+}*/
+
+
+/*.filter img {
+    padding: 10px 0 0 5px;
+}
+*/
+
+.filters-tabs li a {
+    border-bottom: 2px solid transparent !important;
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    margin-left: 13px;
+    margin-right: 13px !important;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+}
+.book_box {
+    padding-bottom: 5px;
+    text-align: center;
+}
+.innre-page-tabs a {
+    color: #666666;
+    font-family: Montserrat-regular;
+    font-size: 13px;
+    padding: 4px !important;
+    text-transform: capitalize;
+}
+.tab-header-menu {
+    list-style-type: none;
+    padding: 10px 10px;
+    width: 100%;
+}
+.tab-header-menu li a::after {
+    color: #adadad;
+    content: "|";
+    height: 50px;
+    padding: 0 10px;
+    width: 1px;
+}
+.tabright {
+    float: right !important;
+    margin-top: 20px;
+}
+.tab-header-menu li a {
+    color: #fff;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+}
+.carshow h3 {
+    color: #ee3a3e;
+    font-family: Montserrat-regular;
+    font-size: 16px;
+}
+.carshow h2 {
+    color: #d83844;
+    font-family: Montserrat-b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+.carshow .col-md-4 {
+    text-align: center;
+    margin: 0 auto;
+}
+.offer {
+    margin-top: 30px;
+    text-align: center;
+}
+.cartab label {
+    color: #4c4c4c;
+    display: inline-flex;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    font-weight: normal !important;
+    padding: 0 0 0 10px;
+}
+.carshow h4 {
+    color: #ee2d33;
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.btn-choose {
+    -moz-user-select: none;
+    background: #d71a21 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin: 20px auto;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.tab-filter span {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    font-weight: normal !important;
+    padding-left: 4px;
+}
+.nav-tabs > li {
+    margin-bottom: 0 !important;
+}
+.deals h3 {
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-hotel {
+    background-color: #f12612;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.deals h4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+.btn-selectdeal {
+    background-color: #009900;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 5px 15px;
+}
+.btn-otherdeal {
+    background-color: #dddddd;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 15px auto;
+    padding: 5px 10px;
+}
+.deals {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 10px 0 30px;
+}
+.fonts {
+    margin-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.hoteltab label {
+    color: #4c4c4c;
+    font-family: Montserrat-regular;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 0 0 4px;
+}
+.hoteltab .col-md-2 {
+    margin: 20px 0;
+    width: 50%;
+}
+.hotelform h3 {
+    border: 1px dotted #ddd;
+    color: #333;
+    font-family: Montserrat-bold;
+    margin: 15px 0 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+.hotelform .col-md-2 {
+    width: 70%;
+}
+.hotelform .col-md-2:first-child {
+    width: 100%;
+}
+.hotelform .col-md-1 {
+    text-align: center;
+    width: 30%;
+}
+.hotelform label {
+    color: #333;
+    font-size: 17px;
+    margin-top: 35px;
+    text-align: right;
+}
+.hotelform .form-control {
+    margin-top: 32px;
+}
+.hotelform .fa {
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+.hotelform .btn-default {
+    background: #b2b2b2 none repeat scroll 0 0;
+    color: #fff;
+    font-family: Montserrat-Reguler;
+    margin-top: 30px;
+}
+.hoteltab {
+    margin: 10px 0 0;
+    padding: 0 0 0 20px;
+}
+.tab-filter .col-md-4:nth-child(1) {
+    border-right: medium none;
+    padding: 20px 30px;
+}
+.tab-filter .col-md-4 {
+    border-right: medium none;
+    padding: 27px 30px;
+}
+.check-area {
+    border-bottom: medium none;
+    padding: 13px;
+    text-align: right;
+}
+.slider {
+    width: 100% !important;
+}
+.hotel {
+    float: none !important;
+}
+.footer-primary h2 {
+    color: #fff;
+    font-family: Montserrat-regular;
+    font-size: 18px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.footer-primary p {
+    color: #f1f1f1;
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    text-align: center;
+}
+.footer-primary h3 {
+    color: #efefef;
+    font-family: Montserrat-regular;
+    font-size: 18px;
+    margin-bottom: 32px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.footer-links {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+.footer-icons {
+    display: block;
+    float: none !important;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-left: 0;
+    text-align: center !important;
+}
+.result-tabs .nav-tabs > li {
+    width: 100%;
+}
+.xs-book-button {
+    display: none;
+}
+.navbar-default {
+    margin-bottom: 0px;
+}
+.book_box img {
+    height: 30px;
+}
+.xs-no-padd {
+    padding: 0px;
+}
+.transformer-tabs:after {
+    .content: "☰";
+    content: '\2807';
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    color: white;
+    z-index: 2;
+    pointer-events: none;
+}
+.transformer-tabs li {
+    display: none;
+}
+.transformer-tabs.open li {
+    display: block;
+}
+.transformer-tabs li:first-child {
+    border-top: 1px solid grey !important;
+}
+.transformer-tabs li.active {
+    display: block;
+    border: none;
+}
+.transformer-tabs.open li {
+    border: 1px solid grey;
+    border-top: 0px
+}
+.affixed-top {
+    margin-top: 232px;
+}
+a.travel-city span {
+    font-size: 11px;
+    padding: 0px;
+}
+.tab-header-menu div a {
+    font-size: 11px;
+}
+.indicator-arrow {
+    margin-top: 4px;
+    margin-left: -4px;
+    font-size: 11px;
+  
+}
+.tab-header-menu .destination {
+    margin-left: 20px;
+}
+.tab-header-menu span.traveller {
+    font-size: 8px;
+}
+.date-picker-input {
+    width: 55px;
+    font-size: 10px;
+}
+.date-toggle-wrap {
+    text-align: center;
+}
+.date-toggle-wrap i {
+    font-size: 12px;
+}
+#filter-button {
+    float: left;
+    padding: 0px 15px;
+}
+div.control-buttons {
+    margin-top: 20px;
+    display: block;
+}
+.flight-logo {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.flight-table strong {
+    font-size: 12px;
+}
+.flight-logo img {
+    height: 35px;
+}
+.flight-detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    border-top: 0px;
+}
+.other-deal {
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    transition: max-height 1s;
+}
+.open .other-deal {
+    max-height: 500px;
+    padding: 5px 0;
+}
+.open .flight-detail {
+    max-height: 500px;
+    border-top: 1px;
+}
+.date-toggle-wrap {
+    margin-left: 0px;
+}
+.flight-table span.price {
+    font-size: 12px;
+}
+.btn-selectme, .btn-danger {
+    font-size: 10px;
+}
+.tabs-wrap {
+    width: 100%;
+    position: relative;
+}
+.flight-detail-trigger, .view-deals {
+    padding: 10px 0px;
+}
+/*Accomodation tab*/
+
+.hotel-pic {
+    width: 130px;
+}
+.hotel-info {
+    width: calc(100% - 135px);
+}
+@media (max-width: 434px) and (min-width: 360px) {
+    .hotel-pic {
+        width: 105px;
+    }
+    .hotel-info {
+        width: calc(100% - 105px);
+    }
+    .hotel-review {
+        padding: 3px;
+        padding-left: 10px;
+    }
+    .hotel-review h4 {
+        font-size: 18px;
+    }
+    .hotel-review .btn, .hotel-cost .btn {
+        font-size: 14px;
+        padding: 3px;
+    }
+    .hotel-cost {
+        padding-left: 2px;
+        padding-right: 2px
+    }
+    .review-score {
+        font-size: 10px;
+        top: 4px;
+        right: -20px;
+    }
+    .hotel-pic img {
+        height: 148px;
+    }
+}
+@media (max-width: 390px) {
+    .control-button {
+        padding: 2px;
+        text-align: center;
+    }
+    .control-button a {
+        padding: 10px 0 10px 0;
+        display: block;
+    }
+    .hotel-details {
+        padding-left: 10px;
+    }
+    .hotel-pic {
+        width: 95px;
+    }
+    .hotel-info {
+        width: calc(100% - 95px);
+    }
+    .hotel-review {
+        padding: 3px;
+    }
+    .small-text {
+        font-size: 12px;
+    }
+    .hotel-review h4 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .hotel-review .btn {
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 3px;
+        border-radius: 0px;
+        padding: 3px;
+        font-family: Montserrat-regular;
+    }
+    .hotel-cost {
+        padding-left: 2px;
+        padding-right: 2px
+    }
+    .hotel-cost .btn {
+        font-size: 12px;
+        padding: 3px;
+        width: 80px;
+        min-width: auto;
+    }
+    .review-score {
+        font-size: 9px;
+        top: 9px;
+        right: 0;
+        padding: 4px;
+    }
+    .stars {
+        padding: 0 0 0 15px;
+    }
+    .hotel-pic img {
+        height: 135px;
+    }
+}
+@media (max-width: 390px) {
+    .hotel-details {
+        padding-left: 14px;
+        padding-right: 0;
+    }
+    .hotel-pic {
+        width: 80px;
+    }
+    .hotel-info {
+        width: calc(100% - 80px);
+    }
+    .hotel-pic img {
+        height: 145px;
+    }
+}
+@media (max-width: 330px) {
+    .hotel-dates {
+        font-size: 15px;
+    }
+}
+.transformer-tabs li.active a {
+    border-radius: 0px;
+}
+.navbar-brand>img {
+    height: 30px !important;
+}
+.navbar-toggle {
+    margin-top: 0px;
+}
+.hotel-popup-link {
+    border-bottom: 1px solid #ddd;
+}
+.hotel-details {
+    border-top: 0px;
+}
+.hotel-cost {
+    border-top: 0px;
+}
+.mobile-from .dest {
+    margin-left: 14px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 340px){
+    .mobile-from .dest{
+        margin-left: 20px;
+    }
+}
+
+.flight-points-left {
+    float: left;
+    padding-right: 5px;
+}
+.flight-points-right {
+    float: left;
+}
+
+.modal-body {
+    height: 400px;
+    overflow-y: auto;
+    font-size: 12px;
+}
+
+.travelClass, .vendor .truncate, .terminal {
+    display: none;
+}
+.itinerarySummary .start {
+    padding-right: 0px;
+    margin-top: 10px;
+}
+.itinerarySummary .end {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+.itinerarySummary .details {
+    margin-top: 10px; 
+}
+.vendor .flightNumber {
+    display: inline-block;
+}
+.itinerarySummary {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#flightIteneraryModal h4 .status {
+    margin-left: 0px;
+}
+.layOver {
+    margin-bottom: 10px;
+    display: block;
+}
+.tab-header.hotels-tab-header {
+    color: #7A7A7A;
+}
+
+.car-pic {
+    width: 100%;
+}
+.car-features-list {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+.car-info {
+    width: 100%;
+}
+
+.car-info .hotel-popup-link {
+    padding-bottom: 5px;
+}
+.car-info .hotel-review {
+    float: none;
+}
+
+.car-info .hotel-review h4 {
+    display: inline;
+}
+.car-info .review-score {
+    position: static;
+}
+.car-info .twin {
+    font-size: 11px;
+    padding-top: 10px;
+}
+.car-features-list span {
+    display: block;
+}
+
+#menu2 .date-toggle-wrap {
+    padding:0px;
+}
+.car-tab .tab-header-menu {
+    text-align: center;
+}
+.features-row {
+    padding: 0px;
+}
+
+.book_box {
+    margin-left: 0px;
+}
+
+.book_box.inactive .book_box-mask {
+    font-size: 10px;
+}
+
+.book_box:after {
+    display: none;
+}
